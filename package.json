@@ -15,6 +15,7 @@
     "deregt-to-react": "^1.1.11",
     "enzyme-adapter-react-16": "^1.15.2",
     "express": "^4.17.1",
+    "jest-environment-enzyme": "^7.1.2",
     "nodemon": "^2.0.4",
     "path": "^0.12.7",
     "react": "^16.13.1",

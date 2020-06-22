@@ -7,15 +7,15 @@ class App extends React.Component {
     this.state = {};
   }
 
-  componentDidMount() {
-    axios.get('/')
-    .then(res => console.log(res))
-    .catch(err => console.error(err));
-  };
+  // componentDidMount() {
+  //   axios.get('/')
+  //   .then(res => console.log(res))
+  //   .catch(err => console.error(err));
+  // };
 
   render() {
     return (
-      <div>Ahoy Cap't! App is Running!</div>
+      <div id="Ahoy">Ahoy Cap't! App is Running!</div>
     )
   };
 }
