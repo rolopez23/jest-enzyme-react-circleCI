@@ -1,1 +1,1 @@
-Make something cool!
+Setup for Jest-Enzyme-CircleCI test
