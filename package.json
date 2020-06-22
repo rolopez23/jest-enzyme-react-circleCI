@@ -1,0 +1,36 @@
+{
+  "name": "jest-enzyme-react",
+  "version": "1.0.0",
+  "description": "Start jest-enzyme-react setup",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "react-dev": "webpack -d -w",
+    "test": "jest"
+  },
+  "author": "Rob Lopez",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "deregt-to-react": "^1.1.11",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "babel-jest": "^26.0.1",
+    "babel-loader": "^8.1.0",
+    "enzyme": "^3.11.0",
+    "jest": "^26.0.1",
+    "jest-enzyme": "^7.1.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
