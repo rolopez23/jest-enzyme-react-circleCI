@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server/index.js",
     "server-dev": "nodemon server/index.js",
-    "react-dev": "webpack -d -w",
+    "react-dev": "webpack -d -w webpack.config.js",
     "test": "jest"
   },
   "author": "Rob Lopez",

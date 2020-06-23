@@ -1,4 +1,5 @@
 const path = require('path');
+console.log('Why am I bundled?')
 
 module.exports = {
   entry: `${__dirname}/client/src/Index.jsx`,
